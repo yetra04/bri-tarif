@@ -1,0 +1,163 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        * {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            box-sizing: border-box;
+            position: relative;
+            color: #000;
+        }
+        html { width: 100vw; height: 100vh; }
+        body {
+            background: #DEE7EE;
+            width: 100%;
+            height: 100%;
+        }
+        .blue {
+            color: #0F78CB;
+        }
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bbox {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: -130px;
+        }
+        .box {
+            width: 85%;
+            max-width: 500px;
+            background: #fff;
+            border-radius: 17px;
+            height: 70%;
+            box-shadow: 16px 18px 24px -4px rgba(74,74,74,0.75);
+-webkit-box-shadow: 16px 18px 24px -4px rgba(74,74,74,0.75);
+-moz-box-shadow: 16px 18px 24px -4px rgba(74,74,74,0.75);
+            margin-top: 100px;
+        }
+        .box .bimg {
+            width: 100%;
+            height: 150px;
+            margin-top: -80px;
+        }
+        .box .bimg img.iconsms {
+            width: 420px;
+            height: auto;
+        }
+        .line {
+            width: 100%;
+            padding: 15px 0;
+            border-bottom: 2.5px dashed #eee;
+        }
+        .line .tit {
+            font-size: 20px;
+            font-weight: 800;
+            text-align: center;
+        }
+        .wrpp {
+            width: 100%;
+            height: auto;
+            padding: 0 25px 25px 25px;
+        }
+        span#countdown {
+            width: 100%;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 15px 0;
+        }
+        p.desc,
+        p.desc b {
+            text-align: center;
+            font-size: 12px;
+            width: 100%;
+            font-weight: 500;
+        }
+        p.desc b {
+            font-weight: 600;
+        }
+        .btarea {
+            width: 100%;
+        }
+        .btarea textarea:focus {
+            box-shadow: 0px 1.5px 4px 1px #00000010;
+            border: 0.3px solid #0079e6;
+        }
+        .btarea textarea {
+            width: 100%;
+            min-width: 250px;
+            max-width: 100%;
+            height: 70px;
+            min-height: 70px;
+            max-height: 180px;
+            padding: 10px;
+            resize: none;
+            font-size: 11px;
+            font-weight: 500;
+            border: 1px solid #0079e6;
+            outline: #0079e6;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        button:hover,
+        button:disabled {
+            background: #0079e65b;
+            transition: .2s;
+        }
+        button {
+            margin: 0px 0 20px 0;
+            width: 100%;
+            height: 40px;
+            border: none;
+            border-radius: 6px;
+            background: #0079e6;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 800;
+            transition: .2s;
+        }
+        p.resend, p.resend span {
+            font-size: 12px;
+            font-weight: 600;
+        }
+        p.resend span {
+            font-weight: 800;
+        }
+        p.resend {
+            text-align: center;
+            color: #898989;
+            margin: 25px auto;
+        }
+        .alert * {
+            color: #fff;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .alert i {
+            margin-right: 10px;
+        }
+        .alert {
+            position: fixed;
+            z-index: 9999999;
+            top: 15px;
+            margin: 0 auto;
+            width: calc(100% - 15px);
+            max-width: 500px;
+            background: #E84040;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            box-shadow: 1px 2px 2px 1px #0000002b;
+        }
